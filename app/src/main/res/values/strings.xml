@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My Social Spark App</string>
+    <string name="app_name">Social Spark App</string>
+    <string name="btn_suggest">Get Suggestion</string>
+    <string name="btn_reset">Reset</string>
+    <string name="hint_time">Enter time (e.g. morning)</string>
+    <string name="default_text">Your suggestion will appear here</string>
 </resources>

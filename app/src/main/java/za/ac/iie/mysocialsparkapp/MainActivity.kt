@@ -1,7 +1,6 @@
-package com.example.socialspark
-
-import android.os.Bundle
+package za.ac.iie.mysocialsparkapp
 import android.util.Log
+import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
@@ -19,41 +18,30 @@ class MainActivity : AppCompatActivity() {
         btnSuggest.setOnClickListener {
 
             val input = timeInput.text.toString().trim().lowercase()
-            Log.d("USER_INPUT", "User entered: $input")
+            Log.d("INPUT", "User entered: $input")
 
             if (input.isEmpty()) {
-                txtResult.text = "Please enter a time of day 😊"
                 Log.e("ERROR", "Empty input")
+                txtResult.text = "⚠️ Please enter a time of day"
                 return@setOnClickListener
             }
 
             val suggestion = when (input) {
-
-                "morning" -> "Send a Good morning message to a family member ☀️"
-
-                "mid-morning" -> "Thank a colleague for something 👍"
-
-                "afternoon" -> "Share a funny meme with a friend 😂"
-
-                "afternoon snack time" -> "Send a 'thinking of you' message 💬"
-
-                "dinner" -> "Call someone for a quick 5-minute catch-up 📞"
-
-                "night", "after dinner" -> "Leave a thoughtful comment on a post ❤️"
-
-                else -> {
-                    Log.w("INVALID_INPUT", "User entered invalid time")
-                    "Oops! Try: Morning, Afternoon, Dinner, etc."
-                }
+                "morning" -> "🌅 Send a 'Good morning' text to a family member"
+                "mid-morning" -> "☕ Thank a colleague for something"
+                "afternoon" -> "😂 Share a funny meme with a friend"
+                "dinner" -> "🍽️ Ask someone how their day was"
+                "night" -> "🌙 Send a 'Good night' message"
+                else -> "❓ Try: morning, afternoon, night"
             }
 
             txtResult.text = suggestion
         }
 
         btnReset.setOnClickListener {
+            Log.d("RESET", "User reset the app")
             timeInput.text.clear()
             txtResult.text = "Your suggestion will appear here"
-            Log.d("RESET", "User reset the app")
         }
     }
 }
