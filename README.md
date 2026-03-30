@@ -3,16 +3,16 @@ Created By: Stephane Rodrigues.
 
 Description: 
 Social Spark App is an android application written in Kotlin and built with android Studio.
-User can type a time of day and receive a random activity to do.
+User can type a time of day and receive an activity to do.
 
 Features. 
 Input from user (time of day; morning, afternoon, evening)
-Calculate suggestion based on user input 
-Reset button 
+Calculate suggestion based on user input;
+Reset button;
 Error if user doesn't input anything, 
 Logs for print messages. 
 
-Emeris Libraries Used. 
+Emeris Libraries Used;
 Kotlin; 
 Android Studio; 
 XML. 
@@ -33,4 +33,4 @@ Activity_main.xml → UI for the app;
 Strings.xml → Strings for app. 
 
 
-Final Version Completed Social Spark App , all features are done. thank you. 
+Final Version Completed Social Spark App, all features are done. thank you. 
