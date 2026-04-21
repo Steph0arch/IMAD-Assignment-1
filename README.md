@@ -18,7 +18,7 @@ Android Studio;
 XML. 
 
 How to Use. 
-1. Type in your time of day (morning) 
+1. Type in your time of day; 
 2. Click on Get suggestion; 
 3. See your suggestion pop up on screen; 
 4. Press **Reset** to start over; 
@@ -34,3 +34,15 @@ Strings.xml → Strings for app.
 
 
 Final Version Completed Social Spark App, all features are done. thank you. 
+
+
+DISCLOSURE OF AI USAGE IN MY ASSESSMENT
+NAME OF AI TOOL USED: Chat GPT
+
+PURPOSE/INTENTION BEHIND USE: I used chat gpt to translate and clarify my ideas, i also used it for the structure of my readme to make it more presentable.
+
+DATE(S) IN WHICH GENERATIVE AI WAS USED: I am not so sure because i lost the chat link, but it was between days 24-29  
+
+A LINK TO THE ACTUAL GENERATIVE AI CHAT: I dont have the link anymore because i used chat gpt withoud sign in.
+
+I am a new student, and im still trying to adapt to the Emeris assessments rules. When i did this assessment, i didn't know i should have to do AI Disclosure. But i will take this as a Lesson and save the links for the next assessments. 
